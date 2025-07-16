@@ -10,4 +10,4 @@ service:
 
 ingress:
   enabled: false
-replicaCount: 3
+replicaCount: 2

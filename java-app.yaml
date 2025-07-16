@@ -12,11 +12,11 @@ spec:
     helm:
       valueFiles:
         - values.yaml
-      parameters:
-        - name: service.nodePort
-          value: "30000"
-        - name: image.tag
-          value: "latest"
+      # parameters:
+      #   - name: service.nodePort
+      #     value: "30000"
+      #   - name: image.tag
+      #     value: "latest"
   destination:
     server: https://kubernetes.default.svc
     namespace: default
